@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+body {
+  /* transition:all 1s; */
+  width: 100%;
+  background: #0c111b;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #1b1b1bb9;
+  /* border: 2px solid white; */
+  animation: navbar 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  transition-property: background-color;
+  transition-duration: 1s;
+  opacity: 0.9;
+  position: sticky;
+}
+
+@keyframes navbar {
+  to {
+    margin-top: 0px;
+  }
+
+  from {
+    margin-top: 500px;
+  }
+}
+
+.logo {
+  padding: 0.7rem 1rem;
+  margin: 0px 10px;
+}
+
+.menu {
+  display: flex;
+  /* border: 2px solid white; */
+  /* position: absolute; */
+  margin-left: auto;
+  list-style: none;
+  padding: 1rem 2rem;
+  /* margin: 10px; */
+}
+
+/* .menu li a{
+    background-color: black;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 178, 178, 0.436);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  } */
+.a {
+  background-color: black;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 178, 178, 0.436);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.items {
+  padding: 0.4rem 0.5rem;
+}
+
+.a:hover {
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+}
+
+.middle {
+  display: flex;
+  /* border: 2px solid white; */
+  padding: 1rem 1rem;
+  margin: 10px 10px;
+}
+
+.image {
+  position: relative;
+  margin-left: auto;
+}
+
+.myimg {
+  width: 339px;
+  height: 481px;
+  padding: 1rem;
+  margin: 0px 33px;
+}
+
+.about {
+  position: absolute;
+  /* border: 2px solid white; */
+  color: white;
+  width: 50%;
+}
+
+.about h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.about p {
+  display: none;
+  text-align: center;
+}
+
+#btn {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#btn:hover {
+  /* font-family: 'Rubik Moonrocks', cursive; */
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+  transform: scale(1.1);
+}
+#btn2 {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#btn2:hover {
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+  transform: scale(1.1);
+}
+#btn3 {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#btn3:hover {
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+  transform: scale(1.1);
+}
+.Projects {
+  position: absolute;
+  margin-top: 117px;
+  /* border: 2px solid white; */
+  color: white;
+  width: 50%;
+}
+
+.Projects h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  /* justify-items: center; */
+  justify-content: center;
+}
+.footer p {
+  /* align-items: center; */
+  color: aliceblue;
+  font-size: 10px;
+  margin-left: -100px;
+}
+
+.Projects p {
+  display: none;
+  text-align: center;
+}
+.cwm {
+  position: absolute;
+  margin-top: 235px;
+  /* border: 2px solid white; */
+  color: white;
+  width: 50%;
+}
+
+.cwm h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.cwm p {
+  display: none;
+  text-align: center;
+}
+.a2{
+  text-decoration: none;
+  color: rgb(255, 167, 167);
+  transition-duration: 0.5s;
+}
+#para2{
+margin-top: -87px;
+}
+#para3{
+  margin-top: -137px;
+  }
+.a2:hover{
+  color: white;
+  transform: scale(1.1);
+}
+#me2{
+  display: none;
+}
+#me3{
+  display: none;
+}
+#me4{
+  display: none;
+}
+.myimg{
+  transition-duration: 1s;
+}
+.myimg:hover{
+transform: scale(1.1);
+cursor: pointer;
+/* transform: rotate(15deg); */
+}
+.logo1{
+  transition-duration: 0.2s;
+}
+.logo1:hover{
+  transform: scale(1.1);
+  transform: rotate(-5deg);
+  cursor: pointer;
+}
